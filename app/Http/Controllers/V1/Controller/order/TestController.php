@@ -2,7 +2,7 @@
 /**
  * wangruijie
  */
-namespace App\Http\Controllers\V1\order;
+namespace App\Http\Controllers\V1\Controller\order;
 
 use App\Http\Controllers\CommanController;
 use App\Http\Enums\DefineEnums;
@@ -22,7 +22,13 @@ class TestController extends CommanController
 
     public function aaa()
     {
-        return 'v1-test';
+        $books = [
+            ['id'=>1, 'title'=>'Hogfather', 'characters' => ['id'=>1, 'title'=>'Hogfather']],
+            ['id'=>2, 'title'=>'Game Of Kill Everyone', 'characters' => ['id'=>1, 'title'=>'Hogfather']]
+        ];
+
+        return response()->json($books);
+//        return 'v1-test';
     }
 
 }

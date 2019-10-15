@@ -29,7 +29,9 @@ Route::group([
 
 
 
+
 include dirname (__FILE__).'/v1/v1.php';//引入v1版本路由
+include dirname (__FILE__).'/v2/v2.php';//引入v2版本路由
 
 
 
@@ -50,7 +52,7 @@ $api = app('Dingo\Api\Routing\Router');
 $api->version('v1', [
     'middleware' => ['web', 'loginApiSign']
 ], function ($api) {
-    $api->post('test', 'App\Http\Controllers\V1\order\TestController@aaa');
+    $api->post('test', 'App\Http\Controllers\V1\Controller\order\TestController@aaa');
 //    $api->post('test', function (){
 //        return response('this is v1-test');
 //    });
@@ -60,7 +62,7 @@ $api->version('v1', [
 $api->version('v2', [
     'middleware' => ['web', 'loginApiSign']
 ], function ($api) {
-    $api->post('test', 'App\Http\Controllers\V2\order\TestController@aaa');
+    $api->post('test', 'App\Http\Controllers\V2\Controller\order\TestController@aaa');
 //    $api->post('test', function (){
 //        return response('this is v2-test');
 //    });

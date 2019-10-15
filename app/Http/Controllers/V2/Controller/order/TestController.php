@@ -2,7 +2,7 @@
 /**
  * wangruijie
  */
-namespace App\Http\Controllers\V2\order;
+namespace App\Http\Controllers\V2\Controller\order;
 
 use App\Http\Controllers\CommanController;
 use App\Http\Enums\DefineEnums;
