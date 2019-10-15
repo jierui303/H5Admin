@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec132e4-bd8b-4ce8-b565-4aed310421ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/fractal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/v2/v2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/H5Admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/H5Admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/V1/order/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/V1/Controller/order/TestController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/V2/order/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/V2/Controller/order/TestController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/V1/Controller/order/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/V1/Controller/order/TestController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/fractal.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="662">
@@ -81,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/Controller/order/TestController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="736">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding>
                 <element signature="e#81#123#0#PHP" expanded="true" />
               </folding>
@@ -449,12 +441,12 @@
       <updated>1563779646115</updated>
       <workItem from="1563779647280" duration="476000" />
       <workItem from="1563846237062" duration="6379000" />
-      <workItem from="1571044992011" duration="13962000" />
+      <workItem from="1571044992011" duration="14845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20817000" />
+    <option name="totallyTimeSpent" value="21700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -469,7 +461,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24466951" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24466951" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -803,20 +795,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/Controller/order/TestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#81#123#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/fractal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="39" column="35" lean-forward="true" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/V1/Controller/order/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#81#123#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
