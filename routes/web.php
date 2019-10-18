@@ -12,6 +12,8 @@ use \Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/blog', '\Modules\Blog\Http\Controllers\BlogController@index');
+Route::get('/blog1', '\Modules\Blog1\Http\Controllers\BlogController@index');
 
 Route::get('/', function () {
     return view('welcome');
