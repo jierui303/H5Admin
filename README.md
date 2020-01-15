@@ -10,6 +10,8 @@ git config --global core.autocrlf false
 
 
 
+composer require phpoffice/phpspreadsheet
+composer require phpmailer/phpmailer
 
 token验证 composer包 thrify语法
 
